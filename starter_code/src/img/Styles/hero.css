@@ -1,0 +1,40 @@
+#hero{
+    display: flex;
+
+}
+
+
+.hero-content h5{
+    font: var(--headline5);
+    margin-bottom: 20px;
+}
+
+.hero-content h2{
+    /* font-size: 92px;
+    font-family: "poppins", sans-serif;
+    font-weight: bold; */
+    font: var(--headline2);
+    margin-bottom: 20px;
+}  
+
+
+.hero-content p{
+    font: var(--body1);
+    margin-bottom: 20px;    
+}
+
+.hero-content button{
+    margin-bottom: 20px;
+}
+
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-perfil{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+

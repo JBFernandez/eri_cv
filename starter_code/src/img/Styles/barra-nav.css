@@ -1,0 +1,18 @@
+
+nav{
+    margin-bottom: 10px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+/*
+text-decoration: none
+text-transform: none
+
+ */

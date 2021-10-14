@@ -1,0 +1,21 @@
+/* px -> absoluta*/
+
+/* vh -> flexible -> se adapta al viewport donde tu lo vas a visualizar, 
+heredan su valor del bloque inicial o ventana gráfica */
+
+/* % heredan los valores de su parent element*/
+/* 100vh = 100% */
+/* em = medida relativa -> va a depender de su parent element */
+
+
+#about-me{
+    height: 50vh ;
+    width: 100%;
+    background-color: yellow;
+    font-size: 16px;
+
+}
+
+.about-me-container h5{
+    font-size: 0.8em;
+}

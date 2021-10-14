@@ -1,11 +1,19 @@
+/* linkear un archivo nuevo de estilos (css) a main  */
+@import url(./hero.css);
+@import url(./about-me.css);
+@import url(./social-bttns.css);
+@import url(./barra-nav.css);
 
+
+/* crear variables para utilizar después y si tenemos que cambiar
+solo tenga que ser en root y lo realice en todo el archivo */
 :root{
     --fontBase: "poppins", sans-serif;
     --headline2: bold 59px/96px var(--fontBase);
     --headline5: bold 24px/39px var(--fontBase);
     --body1: bold 16px/25px var(--fontBase);
     --purple: #310a90;
-}
+    }
 
 
 body{
@@ -13,52 +21,22 @@ body{
     font-family: "poppins", sans-serif;
     font-size: 16px;
     color: #310A90;
+    padding: 15px;
 }
-
-.hero-content h5{
-    font: var(--headline5);
-}
-
-.hero-content h2{
-
-    font: var(--headline2);
-    /* font-size: 92px;
-    font-family: "poppins", sans-serif;
-    font-weight: bold; */
-}
-
-.hero-content p{
-    font: var(--body1);
-}
-
 
 *{
     margin: 0;
 }
 
-
-
-
-#redes{
-    border: solid;
-    border-color: blue;
-    border-width: 1px;
-    border-radius: 5px;
-    background-color: white;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
-
-#otro{
-        animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-        background: transparent;
-        border: 10px solid rgb(255, 255, 255);
-        border-radius: 5px;
-        margin: 1.3em auto;
-        max-width: 95%;
-        border-color: blue;
-
-}
+/* ERROR COMÚNES
+1.verifica que importas el CSS3
+2. verificar que escribes bien la clase y la creaste
+3.verifica que guardaste los cambios
+4. No cerrar etiquetas
+5. Verificar el punto y coma
+6. Verificar llaves de apertura y llaves de cierre 
+7. Verificar que este llamando al archivo correcto.
+*/
 
 
 /* html {
