@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <!-- Change lang propertie -->
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Change document title  -->
-    <title>José Bernardo Fernández CV</title>
+    <title>Portafolio de José Bernardo Fernández</title>
     <!-- Here goes your styles -->
     <link rel="stylesheet" href="/starter_code/src/img/Styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,54 +15,124 @@
 
 </head>
 <body>
+       
     <nav>
         <ul>
-            <li>Proyectos</li>
-            <li>Hablemos</li>
+            <li class="menu-item">
+                <a href="./acerca-de-mi.html">
+                    Acerca de mí
+                </a>
 
+            </li>
+            <li  class="menu-item">
+                <a href="educacion.html">
+                    Educación
+                </a>
+            </li>
+            <li  class="menu-item" id="active">
+                <a href="experienicia.html">
+                    Experiencia
+                </a>
+            </li>
+            <li  class="menu-item">
+                <a href="contacto.html">
+                    Contacto
+                </a>
+            </li>
         </ul>
-    </nav>
+    </nav><!--nav-->
+    <section id="hero">
+        <div class="hero-content">
+            <h5>
+                Hola a todos!
+            </h5>
+            <h2>
+                Soy José Bernardo Full Stack developer
+            </h2>
+            <p>Soy apasionado del desarrollo web y popcorn lover
+            </p>
+            
+            <button class="button">descargar cURRÍCULUM</button>
+
+            <div>
+                <img src="./src/img/icon-instagram.png" alt="icon-instagram" height="5px" width="5">
+                <img src="./src/img/icon-phone.png" alt="icon-instagram">
+                <img src="./src/img/icon-twitter_squared.png" alt="icon-instagram">
+                <img src="./src/img//mail.png" alt="icon-instagram">
+
+            </div><!--buttons social-->
+        </div><!--info about me-->
+        <div>
+            <img src="./generation.png" alt="erika profile img">
+        </div>
+    </section><!--section welcome-->
+   
     <section>
         <div>
-            <h2>
-            ¡Hola a todos!
-            </h2>
-            <h1>
-                Soy José Bernardo Fernández
-            </h1>
-            <p>
-                Full Stack Developer que le encanta implementar diseños que inspiran y atraen personas
-            </p>
-
-        </div>
-        
-
+            <h2>titulo proyect</h2>
+            <p>Películas y series ilimitadas y mucho más.
+                Disfruta donde quieras. Cancela cuando quieras.</p>
+                <a href="#">Ver proyecto</a>
+                <a href="#">Ver código</a>
+        </div><!--section project_description-->
         <div>
+            <img src="./generation.png" alt="generation project_1">
+        </div><!--section project_image-->
 
-            <a href="https://www.facebook.com/coco.fernandez.330">
-                <img id="redes" src="/starter_code/src/img/icon-phone.png" alt="Imagen de Teléfono">
-            </a>
-            
-        
-        <img id="otro" src="/starter_code/src/img/mail.png" alt="Imagen de Correo">
-        <img id="redes" src="/starter_code/src/img/icon-instagram.png" alt="Imagen de Instagram">
-        <img id="redes" src="/starter_code/src/img/icon-twitter_squared.png" alt="Imagen de Twitter">
-        
-        </div>
-
+    </section><!--section project_1-->
+    <section>
         <div>
-            <span style="background-color: white; ">
-                
-            </span>
+            <h3>
+                "Eri ha sido una persona genial que demuestra sus habilidades y ha crecido mucho".
+            </h3>
+            <h5>Juan Carlos Valencia  / INSTRUCTOR GENERATION
 
-        </div>
-
-       <a href="https://www.facebook.com/coco.fernandez.330"></a>
-        
-
+    </section><!--section testimonial-->
+    
+    <section>
         <div>
+            <h2>titulo proyecto 2</h2>
+            <p>Películas y series ilimitadas y mucho más.
+                Disfruta donde quieras. Cancela cuando quieras.</p>
+                <a href="#">Ver proyecto</a>
+                <a href="#">Ver código</a>
+        </div><!--section project_description-->
+        <div>
+            <img src="./generation.png" alt="generation project_1">
+        </div><!--section project_image-->
 
-        </div>
-    </section>
+    </section><!--section project_2-->
+
+    <section>
+        <div>
+            <h3>
+                "Eri ha sido una persona genial que demuestra sus habilidades y ha crecido mucho".
+            </h3>
+            <h5>ERIKA FLORES / INSTRUCTOR GENERATION
+    </section><!--section testimonial-->
+
+    <section>
+        <h2>HABLEMOS</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
+            no dude en ponerse en contacto conmigo.</p>
+        <form action="#" method="POST">
+            <div>
+                <label for="form-name">Nombre completo</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="form-email">Correo electrónico</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="form-message">Mensaje</label>
+                <input type="text">
+            </div>
+           <button class="button">ENVIAR MENSAJE</button>
+
+        </form><!-- form_contact-->
+
+    </section><!--section form_contact-->
+    
 </body>
 </html>l
